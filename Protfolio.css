@@ -56,4 +56,15 @@ body {
     .project-box button:hover {
       background-color: #0056b3;
     }
+     @media (max-width: 900px) {
+      .projects-container {
+        grid-template-columns: repeat(2, 250px);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .projects-container {
+        grid-template-columns: 1fr;
+      }
+    }
   
